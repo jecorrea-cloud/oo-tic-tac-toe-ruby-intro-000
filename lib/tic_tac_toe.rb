@@ -1,6 +1,6 @@
-class TicTacToe 
-  
+class TicTacToe
+
   def initialize()
   end
-  
+
 end
