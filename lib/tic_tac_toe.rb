@@ -38,7 +38,7 @@ class TicTacToe
   def valid_move?(board = @board, index)
     index.between?(0,8) && !position_taken?(board, index)
   end
-  
+
   def turn_count(board)
     counter = 0
     board.each do |turn|
@@ -48,7 +48,7 @@ class TicTacToe
     end
     counter
   end
-  
-  
-  
+
+
+
 end
