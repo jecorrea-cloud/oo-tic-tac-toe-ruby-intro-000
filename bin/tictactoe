@@ -6,6 +6,3 @@ puts "Welcome to Tic Tac Toe!"
 board = Array.new(9, " ")
 
 tikitaka = TicTacToe.new(board)
-
-
-
