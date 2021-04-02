@@ -5,4 +5,4 @@ require_relative '../lib/tic_tac_toe.rb'
 puts "Welcome to Tic Tac Toe!"
 board = Array.new(9, " ")
 
-tikitaka = TicTacToe.new(board)
+triqui = TicTacToe.new(board)
