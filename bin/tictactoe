@@ -6,3 +6,5 @@ puts "Welcome to Tic Tac Toe!"
 board = Array.new(9, " ")
 
 triqui = TicTacToe.new(board)
+
+triqui.play(board)
